@@ -39,4 +39,4 @@
 (defn aux1 [f] ((f false) true) )
 (defn aux2 [f] ((f true) false) )
 
-(defn funXOR2 [x] (defn f1 [y]  ((y (aux1 x)) (aux2 x))  ))
+(defn funXOR [x] (defn f1 [y]  ((y (aux1 x)) (aux2 x))  ))
